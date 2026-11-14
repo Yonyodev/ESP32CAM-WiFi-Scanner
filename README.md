@@ -1,6 +1,6 @@
 # ESP32-CAM Wi-Fi Scanner
 
-**Course:** A.A.S. in Cybersecurity — Bronx Community College
+**Course:** A.A.S. in Cybersecurity — Bronx Community College             
 **Project Type:** Hardware & Wireless Networking Lab  
 **Status:** In Progress
 
