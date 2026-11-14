@@ -112,11 +112,7 @@ This section will summarize the final results, whether the Wi-Fi scanner operate
 - [Arduino Official Website](https://www.arduino.cc/)
 - [Espressif Arduino-ESP32 Documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
 - [GitHub Documentation](https://docs.github.com/)
-
-### AI-Assisted Documentation
-
-ChatGPT was used to assist with documentation structure, project planning, and technical explanations. Actual configuration procedures, troubleshooting observations, and experimental results will be documented as the lab progresses.
-
+  
 ---
 
-**Project maintained for CSN 150 — Cybersecurity.**
+**Academic Project | Associate of Applied Science (A.A.S.) in Cybersecurity — Bronx Community College**
