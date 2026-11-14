@@ -1,34 +1,122 @@
-# Cybersecurity : CSN150
-Project: ESP32 XXXXXXXX
+# ESP32-CAM Wi-Fi Scanner
 
-## Purpose
-Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
+**Course:** CSN 150 — Cybersecurity  
+**Project Type:** Hardware & Wireless Networking Lab  
+**Status:** In Progress
 
-## Equipment
-* [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
+## 1. Project Overview
 
-* [USB Micro Data Cable](https://www.amazon.com/AmazonBasics-Male-Micro-Cable-Black/dp/B0711PVX6Z/ref=sr_1_1_sspa?keywords=micro+usb+data+cable&qid=1678902214&sprefix=Micro+USB+data+%2Caps%2C89&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFaU0NaUVZHU1RFUlAmZW5jcnlwdGVkSWQ9QTA3NTA4MDVFVERCS01HVlgxM1YmZW5jcnlwdGVkQWRJZD1BMDE4NTE1NTIwWUdONkdWSzU1M1Amd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
+This project focuses on configuring an ESP32-CAM microcontroller using the Arduino IDE and preparing it to scan nearby Wi-Fi networks.
 
-## Links to documentation and tools
+## 2. Project Objectives
 
-##### Video 1: 
+- Set up and configure the Arduino IDE.
+- Install ESP32 board support and identify the appropriate hardware configuration.
+- Understand how an ESP32 microcontroller interacts with wireless networks.
+- Execute a Wi-Fi scanning sketch and analyze its output.
+- Document technical procedures, screenshots, errors, and solutions using GitHub.
 
-##### Other Links: 
+## 3. Equipment and Software
 
-##### AI GPTs used
+### Hardware
+- ESP32-CAM development board
+- Compatible USB-to-serial programming adapter or ESP32-CAM programming base
+- USB data cable
+- Computer for development and testing
 
-## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+### Software
+- [Arduino IDE](https://www.arduino.cc/en/software/)
+- ESP32 board support by Espressif Systems
+- GitHub for documentation and version control
 
-## Problems and Solutions
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
+## 4. Project Progress
 
-**Problem:** E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
-Camera init failed with error 0x105
-**Solution:**
+- [x] Fork the original CSN150 documentation repository.
+- [x] Install and verify Arduino IDE.
+- [ ] Configure ESP32 board support.
+- [ ] Connect and identify the ESP32-CAM hardware.
+- [ ] Upload and execute the Wi-Fi scanner sketch.
+- [ ] Analyze the output.
+- [ ] Document screenshots, troubleshooting, and results.
 
-### Example Problem
-**Problem:** Arduino code will not load on ESP32 Cam.
-**Solution:** Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
+## 5. Setup and Implementation
 
-## Final Report
+### Step 1 — GitHub Repository Setup
+
+Forked the original CSN150 documentation template to establish an independent repository for documenting the ESP32-CAM Wi-Fi scanner project.
+
+The repository will serve as the central location for project notes, configuration steps, screenshots, and testing evidence.
+
+### Step 2 — Arduino IDE Installation
+
+**Status:** Pending
+
+Document the Arduino IDE installation process, including the operating system, application version, and successful launch.
+
+### Step 3 — ESP32 Board Configuration
+
+**Status:** Pending
+
+Install the official ESP32 board package through Arduino IDE's Boards Manager and verify that the appropriate board is available.
+
+### Step 4 — Hardware Connection
+
+**Status:** Pending
+
+Identify the ESP32-CAM board and compatible programming interface. Document the connection procedure and confirm communication with the development computer.
+
+### Step 5 — Wi-Fi Scanner Execution
+
+**Status:** Pending
+
+Upload and execute the Wi-Fi scanning sketch. Examine the detected networks and available information, including:
+
+- **SSID:** Wireless network name.
+- **RSSI:** Received signal strength.
+- **Channel:** Wireless communication channel.
+- **Encryption:** Security protocol reported for the network.
+
+## 6. Screenshots and Evidence
+
+Screenshots will be added as each stage is completed.
+
+Planned evidence includes:
+
+- Arduino IDE successfully installed.
+- ESP32 board support configured.
+- Selected board and connection settings.
+- Wi-Fi scanner output, with sensitive network information redacted where necessary.
+
+## 7. Problems and Solutions
+
+Technical problems encountered during the lab will be recorded here.
+
+Each troubleshooting entry will include:
+
+1. The problem or error message.
+2. The likely cause or diagnostic hypothesis.
+3. The troubleshooting steps attempted.
+4. The final outcome or confirmed solution.
+
+**Current status:** No troubleshooting results recorded yet.
+
+## 8. Results and Final Report
+
+**Status:** Pending hardware configuration and testing.
+
+This section will summarize the final results, whether the Wi-Fi scanner operated successfully, any limitations encountered, and the technical knowledge gained from completing the lab.
+
+## 9. Documentation and References
+
+- [Original CSN150 Documentation Template](https://github.com/ereedsanchez/CSN150-Doc-Template)
+- [Arduino Official Website](https://www.arduino.cc/)
+- [Espressif Arduino-ESP32 Documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
+- [GitHub Documentation](https://docs.github.com/)
+
+### AI-Assisted Documentation
+
+ChatGPT was used to assist with documentation structure, project planning, and technical explanations. Actual configuration procedures, troubleshooting observations, and experimental results will be documented as the lab progresses.
+
+---
+
+**Project maintained for CSN 150 — Cybersecurity.**
