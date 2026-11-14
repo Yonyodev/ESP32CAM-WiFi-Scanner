@@ -95,6 +95,14 @@ The sketch was uploaded to the physical ESP32-CAM.
 
 The upload process completed, and Arduino reported the device reset operation.
 
+### Source Code
+
+The Wi-Fi scanner was implemented using the official Espressif WiFiScan example, with a modification to prevent continuous scanning.
+
+The modified Arduino sketch is available below:
+
+[View WiFiScan.ino](sketches/WiFiScan.ino)
+
 ## 5. Wi-Fi Scanner Results
 
 After uploading the sketch, the ESP32-CAM successfully scanned nearby wireless networks.
