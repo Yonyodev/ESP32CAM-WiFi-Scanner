@@ -4,7 +4,7 @@
 **Project Type:** Hardware & Wireless Networking Lab  
 **Status:** Completed — November 14, 2026
 
-## 1. Project Overview
+## Overview
 
 This project demonstrates the configuration and implementation of an ESP32-CAM microcontroller using the Arduino IDE in a Windows lab environment.
 
@@ -12,7 +12,7 @@ The primary objective was to execute a Wi-Fi scanning sketch capable of discover
 
 The project also emphasizes hardware configuration, troubleshooting, and technical documentation through GitHub.
 
-## 2. Project Objectives
+## Project Objectives
 
 - [x] Fork and customize the original GitHub documentation template.
 - [x] Install and configure the Arduino IDE.
@@ -24,7 +24,7 @@ The project also emphasizes hardware configuration, troubleshooting, and technic
 - [x] Modify the sketch to prevent continuous scanning.
 - [x] Document the configuration, testing, and results.
 
-## 3. Equipment and Software
+## Hardware and tools
 
 | Component | Description |
 |---|---|
@@ -38,7 +38,7 @@ The project also emphasizes hardware configuration, troubleshooting, and technic
 | Serial Monitor | 115200 baud |
 | Example Sketch | WiFiScan |
 
-## 4. Setup and Implementation
+## Setup
 
 ### Step 1 — GitHub Repository Setup
 
@@ -62,7 +62,7 @@ The installation was confirmed through the Boards Manager and Arduino IDE output
 
 **Installation Evidence:**
 
-![Arduino IDE and ESP32 installation](screenshots/Installation_Boards.png)
+![Arduino IDE and ESP32 installation](evidence/screenshots/Installation_Boards.png)
 
 *Figure 1. Arduino IDE with the Espressif ESP32 board package successfully installed.*
 
@@ -101,9 +101,9 @@ The Wi-Fi scanner was implemented using the official Espressif WiFiScan example,
 
 The modified Arduino sketch is available below:
 
-[View WiFiScan.ino](sketches/WiFiScan.ino)
+[View WiFiScan.ino](sketches/WiFiScan/WiFiScan.ino)
 
-## 5. Wi-Fi Scanner Results
+## Testing and results
 
 After uploading the sketch, the ESP32-CAM successfully scanned nearby wireless networks.
 
@@ -122,7 +122,7 @@ Detected wireless channels included channels 1, 6, and 11.
 
 **Wi-Fi Scanning Evidence:**
 
-![ESP32-CAM Wi-Fi scan results](screenshots/WiFi-Scan.png)
+![ESP32-CAM Wi-Fi scan results](evidence/screenshots/WiFi-Scan.png)
 
 *Figure 2. ESP32-CAM successfully detecting nearby wireless access points through Arduino Serial Monitor. Network names are concealed for privacy.*
 
@@ -140,7 +140,7 @@ RSSI values closer to zero generally indicate stronger received signals.
 
 The scanner identifies advertised network information without requiring authentication or establishing a connection to those networks.
 
-## 6. Troubleshooting and Adjustments
+## Troubleshooting
 
 ### Issue 1 — Continuous Wi-Fi Scanning
 
@@ -164,7 +164,7 @@ The modification allows the device to perform its scanning cycle and then remain
 
 **Result:** Scanning information was successfully displayed.
 
-## 7. Results and Conclusion
+## Results and Conclusion
 
 **Final Result: Successful**
 
@@ -184,7 +184,7 @@ This laboratory exercise provided practical experience with:
 
 The project also reinforced the importance of understanding program execution, particularly the difference between Arduino's `setup()` and `loop()` functions.
 
-## 8. References
+## References
 
 - [Original Documentation Template](https://github.com/ereedsanchez/CSN150-Doc-Template)
 - [Arduino Official Website](https://www.arduino.cc/)
